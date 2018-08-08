@@ -5,7 +5,56 @@
   outline: none;
 }
 
+header {
+  height: 200px;
+  background-color: #1965c4;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+}
 
-header h1 {
-  color: #F0F;
+header nav figure {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+}
+header nav figure img {
+  width: 12%;
+  float: left;
+}
+header nav figure h1 {
+  float: left;
+  color: #FFF;
+  margin-left: 10px;
+  position: relative;
+  top: -1px;
+  font-weight: bolder;
+}
+
+header nav ul {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+
+header nav ul li {
+  float: left;
+  list-style: none;
+  font-size: 22px;
+  margin: 0 20px;
+}
+
+header nav ul li a {
+  color: #FFF;
+  border-bottom: 2px solid #ff801900;
+  transition: .25s;
+  padding-bottom: 17px;
+  text-decoration: none!important;
+}
+
+header nav ul li a:hover {
+  color: #FFF;
+  border-bottom: 3px solid #ff8019FF;
 }
