@@ -10,12 +10,9 @@ header h1 {
   color: #F0F;
 }
 
-.container highligt {
-  margin-top: 250px;
-}
 
 .col-sm {
-
+padding-top: 250px;
   margin: 20px;
 
   transition: 2s;
