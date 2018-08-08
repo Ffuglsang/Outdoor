@@ -59,12 +59,9 @@ header nav ul li a:hover {
   border-bottom: 3px solid #ff8019FF;
 }
 
-.container highligt {
-  margin-top: 250px;
-}
 
 .col-sm {
-
+padding-top: 250px;
   margin: 20px;
 
   transition: 2s;
